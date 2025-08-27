@@ -1,0 +1,21 @@
+{
+  "name": "frn-goat-bot-v2",
+  "version": "2.0.0",
+  "description": "frn-goat bot v2 - Rose moderation + SimSimi-style chat, deploy-ready with GitHub Actions & Docker",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "lint": "echo 'no lint configured'"
+  },
+  "author": "Farhan Muh Tasim <frnbuid2005@gmail.com> (@frnwot)",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "dotenv": "^16.4.5",
+    "lowdb": "^3.0.0",
+    "axios": "^1.7.7",
+    "moment-timezone": "^0.5.46"
+  }
+}

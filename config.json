@@ -1,0 +1,13 @@
+{
+  "bot_name": "frn-goat bot v2",
+  "owner": {
+    "name": "Farhan Muh Tasim",
+    "username": "frnwot",
+    "email": "frnbuid2005@gmail.com"
+  },
+  "settings": {
+    "timezone": "Asia/Dhaka",
+    "default_chat_enabled": true,
+    "warn_limit": 3
+  }
+}
