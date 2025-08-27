@@ -9,6 +9,25 @@ A deploy-ready Telegram bot combining **Rose-style moderation** with **SimSimi-l
 - Dockerfile + GitHub Actions workflow to build and publish a Docker image to GitHub Container Registry (GHCR).
 - Easy deploy: `npm install`, set `.env`, `npm start` or use the prebuilt Docker image.
 
+# modification 
+**if you want to add your information and other stuff just re edit `config.json`**
+```bash
+{
+  "bot_name": "your bot name",
+  "owner": {
+    "name": "add your",
+    "username": "own",
+    "email": "example.gmail.com"
+  },
+  "settings": {
+    "timezone": "Asia/Dhaka",
+    "default_chat_enabled": true,
+    "warn_limit": 3
+  }
+}
+```
+
+
 ## Quick start (local)
 ```bash
 npm install
